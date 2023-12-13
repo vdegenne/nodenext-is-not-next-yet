@@ -1,1 +1,2 @@
-import {} from 'a/';
+import {foo} from 'a/module/';
+console.log(foo);

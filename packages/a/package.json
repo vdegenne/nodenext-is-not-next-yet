@@ -2,7 +2,8 @@
 	"name": "a",
 	"type": "module",
 	"exports": {
+		".": "./index.js",
 		"./module": "./index.js",
-		"./module/path": "./sub.js"
+		"./module/sub.js": "./sub.js"
 	}
 }
